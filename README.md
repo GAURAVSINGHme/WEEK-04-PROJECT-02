@@ -1,7 +1,7 @@
 # WEEK-04-PROJECT-02
 
 # This is the final output
-![Readme](WEEK-04-PROJECT-02/output.png)
+![Readme](..WEEK-04-PROJECT-02/output.png)
 
 # _I'm Gaurav Singh_
 I've been Working on this assigments that has been given by our mentor [Hitesh Choudhary](https://github.com/hiteshchoudhary)</b><br>

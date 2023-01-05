@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 1440px;
+    /* max-height: 1440px; */
+    background-color: #F0F4F5;
+    margin: auto; /* Auto */
+    overflow: hidden;
+}
+
+nav{
+    height: 15vh;
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    padding: 0% 5%;
+ }
+
+nav ul{
+    display: flex;
+    /* align-items:center ; */
+}
+
+li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    /* padding-left: 10%; */
+}
+
+ul li:first-child{
+    color: #20BC7E;
+}
+
+/* main section  */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+main section{
+    width: 50%;
+}
+
+.leftsection{
+    padding-left: 5%;
+    position: relative;
+}
+
+.topangle{
+    width: 30px;
+}
+
+.leftsection h1{
+    font-size: 70px;
+}
+
+.leftsection p {
+    font-size: 20px;
+    color: #6B728E;
+    margin: 20px 0;
+}
+.bottomangle{
+    width: 30px;
+    position: absolute;
+    right: 25px;
+}
+
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60px;
+    left: 180px;
+    z-index: -1;
+}
+.mouse{
+    position: absolute;
+    right: -30px;
+    bottom: -50px;
+    width: 30px;
+}
+button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #20BC7E;
+    color: #F0F4F5;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/* right section  */
+.greenbox,  .yellowbox{
+    position: absolute;
+    right: 0;
+}
+.greenbox{
+    width: 35%;
+    bottom: 30px;
+}
+.yellowbox{
+    width: 30%;
+    bottom: 50px;
+}
+
+
+.doctor{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 90%;
+}
+
